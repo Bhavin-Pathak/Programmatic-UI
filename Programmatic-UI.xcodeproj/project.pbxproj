@@ -20,6 +20,7 @@
 		522E4B762BFC758B0045C27D /* TBFristView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522E4B752BFC758B0045C27D /* TBFristView.swift */; };
 		522E4B782BFC76230045C27D /* UIViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522E4B772BFC76230045C27D /* UIViews.swift */; };
 		522E4B7B2BFC79830045C27D /* ImagesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522E4B7A2BFC79830045C27D /* ImagesModel.swift */; };
+		52A34D7D2BFD09EE006214C2 /* ImageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A34D7C2BFD09EE006214C2 /* ImageViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		522E4B752BFC758B0045C27D /* TBFristView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBFristView.swift; sourceTree = "<group>"; };
 		522E4B772BFC76230045C27D /* UIViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViews.swift; sourceTree = "<group>"; };
 		522E4B7A2BFC79830045C27D /* ImagesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesModel.swift; sourceTree = "<group>"; };
+		52A34D7C2BFD09EE006214C2 /* ImageViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +169,7 @@
 			children = (
 				522E4B792BFC79480045C27D /* Models */,
 				522E4B752BFC758B0045C27D /* TBFristView.swift */,
+				52A34D7C2BFD09EE006214C2 /* ImageViewCell.swift */,
 			);
 			path = TBView;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				522E4B422BFC5D7E0045C27D /* FristView.swift in Sources */,
+				52A34D7D2BFD09EE006214C2 /* ImageViewCell.swift in Sources */,
 				522E4B782BFC76230045C27D /* UIViews.swift in Sources */,
 				522E4B762BFC758B0045C27D /* TBFristView.swift in Sources */,
 				522E4B7B2BFC79830045C27D /* ImagesModel.swift in Sources */,
