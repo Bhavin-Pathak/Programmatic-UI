@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		522E4B3E2BFC5D7E0045C27D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522E4B3D2BFC5D7E0045C27D /* AppDelegate.swift */; };
 		522E4B402BFC5D7E0045C27D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522E4B3F2BFC5D7E0045C27D /* SceneDelegate.swift */; };
-		522E4B422BFC5D7E0045C27D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522E4B412BFC5D7E0045C27D /* ViewController.swift */; };
+		522E4B422BFC5D7E0045C27D /* FristView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522E4B412BFC5D7E0045C27D /* FristView.swift */; };
 		522E4B472BFC5D800045C27D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522E4B462BFC5D800045C27D /* Assets.xcassets */; };
 		522E4B4A2BFC5D800045C27D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522E4B482BFC5D800045C27D /* LaunchScreen.storyboard */; };
 		522E4B552BFC5D800045C27D /* Programmatic_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522E4B542BFC5D800045C27D /* Programmatic_UITests.swift */; };
@@ -38,7 +38,7 @@
 		522E4B3A2BFC5D7E0045C27D /* Programmatic-UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Programmatic-UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		522E4B3D2BFC5D7E0045C27D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		522E4B3F2BFC5D7E0045C27D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		522E4B412BFC5D7E0045C27D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		522E4B412BFC5D7E0045C27D /* FristView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FristView.swift; sourceTree = "<group>"; };
 		522E4B462BFC5D800045C27D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		522E4B492BFC5D800045C27D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		522E4B4B2BFC5D800045C27D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,7 +99,7 @@
 			children = (
 				522E4B3D2BFC5D7E0045C27D /* AppDelegate.swift */,
 				522E4B3F2BFC5D7E0045C27D /* SceneDelegate.swift */,
-				522E4B412BFC5D7E0045C27D /* ViewController.swift */,
+				522E4B412BFC5D7E0045C27D /* FristView.swift */,
 				522E4B462BFC5D800045C27D /* Assets.xcassets */,
 				522E4B482BFC5D800045C27D /* LaunchScreen.storyboard */,
 				522E4B4B2BFC5D800045C27D /* Info.plist */,
@@ -254,7 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				522E4B422BFC5D7E0045C27D /* ViewController.swift in Sources */,
+				522E4B422BFC5D7E0045C27D /* FristView.swift in Sources */,
 				522E4B3E2BFC5D7E0045C27D /* AppDelegate.swift in Sources */,
 				522E4B402BFC5D7E0045C27D /* SceneDelegate.swift in Sources */,
 			);
