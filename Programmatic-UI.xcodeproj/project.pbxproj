@@ -16,6 +16,7 @@
 		522E4B5F2BFC5D800045C27D /* Programmatic_UIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522E4B5E2BFC5D800045C27D /* Programmatic_UIUITests.swift */; };
 		522E4B612BFC5D800045C27D /* Programmatic_UIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522E4B602BFC5D800045C27D /* Programmatic_UIUITestsLaunchTests.swift */; };
 		522E4B6E2BFC6C830045C27D /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522E4B6D2BFC6C830045C27D /* SecondView.swift */; };
+		522E4B712BFC71110045C27D /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522E4B702BFC71110045C27D /* Images.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		522E4B5E2BFC5D800045C27D /* Programmatic_UIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmatic_UIUITests.swift; sourceTree = "<group>"; };
 		522E4B602BFC5D800045C27D /* Programmatic_UIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmatic_UIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		522E4B6D2BFC6C830045C27D /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		522E4B702BFC71110045C27D /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +101,10 @@
 		522E4B3C2BFC5D7E0045C27D /* Programmatic-UI */ = {
 			isa = PBXGroup;
 			children = (
-				522E4B3D2BFC5D7E0045C27D /* AppDelegate.swift */,
-				522E4B3F2BFC5D7E0045C27D /* SceneDelegate.swift */,
-				522E4B412BFC5D7E0045C27D /* FristView.swift */,
+				522E4B732BFC722A0045C27D /* Application */,
 				522E4B462BFC5D800045C27D /* Assets.xcassets */,
 				522E4B482BFC5D800045C27D /* LaunchScreen.storyboard */,
 				522E4B4B2BFC5D800045C27D /* Info.plist */,
-				522E4B6D2BFC6C830045C27D /* SecondView.swift */,
 			);
 			path = "Programmatic-UI";
 			sourceTree = "<group>";
@@ -125,6 +124,34 @@
 				522E4B602BFC5D800045C27D /* Programmatic_UIUITestsLaunchTests.swift */,
 			);
 			path = "Programmatic-UIUITests";
+			sourceTree = "<group>";
+		};
+		522E4B6F2BFC6F290045C27D /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				522E4B702BFC71110045C27D /* Images.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		522E4B722BFC72150045C27D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				522E4B412BFC5D7E0045C27D /* FristView.swift */,
+				522E4B6D2BFC6C830045C27D /* SecondView.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		522E4B732BFC722A0045C27D /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				522E4B722BFC72150045C27D /* ViewController */,
+				522E4B6F2BFC6F290045C27D /* Constants */,
+				522E4B3D2BFC5D7E0045C27D /* AppDelegate.swift */,
+				522E4B3F2BFC5D7E0045C27D /* SceneDelegate.swift */,
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +286,7 @@
 			files = (
 				522E4B422BFC5D7E0045C27D /* FristView.swift in Sources */,
 				522E4B3E2BFC5D7E0045C27D /* AppDelegate.swift in Sources */,
+				522E4B712BFC71110045C27D /* Images.swift in Sources */,
 				522E4B6E2BFC6C830045C27D /* SecondView.swift in Sources */,
 				522E4B402BFC5D7E0045C27D /* SceneDelegate.swift in Sources */,
 			);
