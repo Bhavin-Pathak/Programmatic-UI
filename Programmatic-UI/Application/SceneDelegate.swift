@@ -19,7 +19,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         //MARK: Assign _ to Var Name
         guard let windowScnes = (scene as? UIWindowScene) else { return }
         //MARK: Navigationcontoller Mean StackView Like Main HomeScreen Will Attached With NavigationController
-        let navigationCon = UINavigationController(rootViewController: TBFristView())
+        let navigationCon = UINavigationController(rootViewController: StackView())
         //MARK: Assign windowScnes To UIWindows That Cover Whole Screen
         window = UIWindow(frame: windowScnes.coordinateSpace.bounds)
         //MARK: Make Windows to Windoscnes And Assign Decalare Variables On Windowscne

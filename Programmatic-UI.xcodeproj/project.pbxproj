@@ -20,6 +20,9 @@
 		522E4B762BFC758B0045C27D /* TBFristView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522E4B752BFC758B0045C27D /* TBFristView.swift */; };
 		522E4B782BFC76230045C27D /* UIViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522E4B772BFC76230045C27D /* UIViews.swift */; };
 		522E4B7B2BFC79830045C27D /* ImagesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522E4B7A2BFC79830045C27D /* ImagesModel.swift */; };
+		528277162BFDCA3A001C44B5 /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528277152BFDCA3A001C44B5 /* StackView.swift */; };
+		528277192BFDCACE001C44B5 /* SrveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528277182BFDCACE001C44B5 /* SrveButton.swift */; };
+		5282771D2BFEFB12001C44B5 /* StartingUP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5282771C2BFEFB12001C44B5 /* StartingUP.swift */; };
 		52A34D7D2BFD09EE006214C2 /* ImageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A34D7C2BFD09EE006214C2 /* ImageViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +61,9 @@
 		522E4B752BFC758B0045C27D /* TBFristView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBFristView.swift; sourceTree = "<group>"; };
 		522E4B772BFC76230045C27D /* UIViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViews.swift; sourceTree = "<group>"; };
 		522E4B7A2BFC79830045C27D /* ImagesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesModel.swift; sourceTree = "<group>"; };
+		528277152BFDCA3A001C44B5 /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
+		528277182BFDCACE001C44B5 /* SrveButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SrveButton.swift; sourceTree = "<group>"; };
+		5282771C2BFEFB12001C44B5 /* StartingUP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingUP.swift; sourceTree = "<group>"; };
 		52A34D7C2BFD09EE006214C2 /* ImageViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -155,6 +161,8 @@
 		522E4B732BFC722A0045C27D /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				5282771A2BFEFAE5001C44B5 /* SwiftUI */,
+				52A34D7E2BFD162E006214C2 /* UIStackView */,
 				522E4B742BFC756C0045C27D /* TBView */,
 				522E4B722BFC72150045C27D /* ViewController */,
 				522E4B6F2BFC6F290045C27D /* Constants */,
@@ -180,6 +188,39 @@
 				522E4B7A2BFC79830045C27D /* ImagesModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		528277172BFDCAAA001C44B5 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				528277182BFDCACE001C44B5 /* SrveButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		5282771A2BFEFAE5001C44B5 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				5282771B2BFEFAEC001C44B5 /* Concepts */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		5282771B2BFEFAEC001C44B5 /* Concepts */ = {
+			isa = PBXGroup;
+			children = (
+				5282771C2BFEFB12001C44B5 /* StartingUP.swift */,
+			);
+			path = Concepts;
+			sourceTree = "<group>";
+		};
+		52A34D7E2BFD162E006214C2 /* UIStackView */ = {
+			isa = PBXGroup;
+			children = (
+				528277172BFDCAAA001C44B5 /* Components */,
+				528277152BFDCA3A001C44B5 /* StackView.swift */,
+			);
+			path = UIStackView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,6 +353,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5282771D2BFEFB12001C44B5 /* StartingUP.swift in Sources */,
 				522E4B422BFC5D7E0045C27D /* FristView.swift in Sources */,
 				52A34D7D2BFD09EE006214C2 /* ImageViewCell.swift in Sources */,
 				522E4B782BFC76230045C27D /* UIViews.swift in Sources */,
@@ -320,7 +362,9 @@
 				522E4B3E2BFC5D7E0045C27D /* AppDelegate.swift in Sources */,
 				522E4B712BFC71110045C27D /* Images.swift in Sources */,
 				522E4B6E2BFC6C830045C27D /* SecondView.swift in Sources */,
+				528277192BFDCACE001C44B5 /* SrveButton.swift in Sources */,
 				522E4B402BFC5D7E0045C27D /* SceneDelegate.swift in Sources */,
+				528277162BFDCA3A001C44B5 /* StackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
